@@ -1,0 +1,43 @@
+
+
+/***********header***************/
+
+.header {
+    align-items: center;
+    background: var(--blanco);
+    background: linear-gradient(130deg, rgb(255, 255, 255) -15%,  rgb(87, 215, 224) 200% ) ;
+    display: flex;
+    height: 3rem;
+    justify-content: space-between;
+    padding: 0px 1rem;
+    width: 100%;
+    z-index:1;
+}
+@media (min-width:600px) {
+    .header {
+        background: linear-gradient(170deg, rgb(255, 255, 255) 15%,  rgb(87, 215, 224) 100% ) ;
+        padding: 0px 2rem;
+        position: sticky;
+        top: 0%;
+    }
+}
+
+
+.logo {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+
+
+.header a { 
+    display: none;
+}
+@media (min-width:600px) {
+    .header a { 
+        color: var(--azul);    
+        display: initial;
+        font-weight: 600;
+        text-decoration: none;
+    }
+}

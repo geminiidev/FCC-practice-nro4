@@ -1,0 +1,26 @@
+
+/***********foooter***************/
+
+.footer {
+    align-items: center;
+    background: var(--azul);
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    justify-content: center;
+    padding: 0% 10%;
+    text-align: center;
+    width: 100%;
+}
+
+
+.footer_p {
+    color: var(--blanco); 
+    font-size: 1rem;
+}
+@media (min-width:600px) {
+    .footer_p {
+        font-size: 1.25rem;
+    }
+}
+
