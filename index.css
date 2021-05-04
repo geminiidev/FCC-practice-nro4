@@ -8,20 +8,24 @@
 body {
     color: var(--azul);
     font-family:  sans-serif;
-    background: var( --fondo );
+    background: var( --azul );
 }
 
 
 :root {
-    --fondo:   #d4d4d4;
+    --gris:    #575757;
     --blanco:  #fff;
     --negro:   #1a1a1a;
     --azul:    #273347;
     --celeste: #57d7e0;
-    --rosa:    #ff97d4;
+    --rosa:    #fdbfe3;
 }
 
 
 .color_change{animation:color-change-2x 10s linear infinite alternate both}
 @keyframes color-change-2x {  0% { color: #57d7e0; }   100% { color:  #ff97d4; }  }
   
+
+.color_change_fondo{animation:color-change-b 5s linear infinite alternate both}
+@keyframes color-change-b {  0% {  background: #273347; }   100% { background: #1f1c2e; }  }
+
